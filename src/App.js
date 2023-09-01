@@ -1,11 +1,16 @@
 import React from "react";
-import PostList from "./components/PostList";
+import ProductList from "./components/ProductList";
 
 function App() {
   return (
     <>
       <div className="App">
-        <PostList />
+        <header className="App-header">
+          <h1>Welcome to My Online Store</h1>
+        </header>
+        <main>
+          <ProductList />
+        </main>
       </div>
     </>
   );
